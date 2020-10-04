@@ -1,0 +1,19 @@
+{
+  "name": "site-builder",
+  "version": "1.0.0",
+  "description": "JS Pure app",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 3000 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "goreev.ar@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
